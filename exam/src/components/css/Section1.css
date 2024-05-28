@@ -1,0 +1,95 @@
+.App {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 500px;
+    text-align: left;
+}
+
+h1.begin {
+    font-size: 7rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+img{
+    width: 100%;
+}
+
+.join-button {
+    background-color: #f04e23;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.number {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.unit,
+.label {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+span.spanoflogos {
+    opacity: 0.6;
+
+}
+
+.image-container {
+    flex-shrink: 0;
+}
+
+.workout-image {
+    height: 600px;
+}
+
+@media (max-width: 992px) {
+    .image-container {
+        display: none;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}

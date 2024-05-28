@@ -1,0 +1,86 @@
+div.section3 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+div.seemore {
+    color: #0070C9;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+div.workoutathome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+div.imgparagraph {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+}
+
+div.section3img img {
+    width: 100%;
+}
+
+div.section3img {
+    flex: 1;
+}
+
+div.bigword {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+}
+
+/* ----------------------- */
+
+
+div.getmore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+div.getmorebigword {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0.8299999833106995px;
+    text-align: left;
+}
+div.getmoreimg img{
+    width: 100%;
+}
+div.getmoreimg{
+    flex: 1;
+}
+div.getmoreword{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+div.getmoresmallword{
+
+}
+
+@media (max-width:992px) {
+    div.workoutathome {
+        flex-direction: column;
+    }
+
+    div.getmore {
+        flex-direction: column;
+    }
+}

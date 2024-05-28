@@ -1,0 +1,20 @@
+h1 {
+    color: white ;
+    margin-top: 300px;
+    margin-left: 101px;
+}
+p {
+    color: white;
+    margin-left: 101px;
+    width: 40%;
+}
+div.groups {
+display: flex;
+p{
+    color: white;
+}
+h4 {
+    color: white;
+}
+
+}

@@ -1,0 +1,77 @@
+footer.foot {
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+div.Membership {
+    color: white;
+    font-size: 50px;
+    /* font-weight: 500; */
+    line-height: 70px;
+    letter-spacing: 0.8299999833106995px;
+    text-align: left;
+}
+
+div.hr {
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+/* ---------------------- */
+
+div.joinfree {
+    display: flex;
+    gap: 40px;
+}
+
+div.part1footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #232532;
+    flex: 1;
+    padding: 40px;
+}
+
+div.h1ofpart1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+div.ww {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    opacity: 0.65;
+    color: #EFEDE8A6;
+}
+ul{
+    padding: 0px 0px 0px 25px;
+}
+div.joinclubnow{
+    background-color: #0070C9;
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: small;
+    color: white;
+    letter-spacing: 2px;
+}
+div.seemorefooter{
+    margin-top: 20px;
+}
+
+div.part2footer {
+    flex: 1;
+}

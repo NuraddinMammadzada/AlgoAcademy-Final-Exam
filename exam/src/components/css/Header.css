@@ -1,0 +1,23 @@
+header.head {
+    color: #FAFAF9;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 49px !important;
+}
+
+div.head2 {
+    display: flex;
+    gap: 12px;
+}
+
+div.head2 div {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+
+body {
+    margin: 0;
+    background-color: #171717;
+}

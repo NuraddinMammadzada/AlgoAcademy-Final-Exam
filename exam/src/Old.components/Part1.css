@@ -1,0 +1,56 @@
+div.workoutwithme {
+    font-family: inter;
+    color: white;
+    font-size: 158px;
+    width: 883px;
+    height: 140px;
+    font-weight: 800;
+    margin-left: 24px;
+}
+
+div.sectioncontainer {
+    margin-left: 11px;
+    display: flex;
+    position: relative;
+}
+
+div.sectioncontainer img {
+    width: 399px;
+    height: 544px;
+    /* margin-top: 50px; */
+    position: absolute;
+    left: 52%;
+    top: 39%
+}
+div.erko{
+    margin-top: 370px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.546);
+    height: 24px;
+    width: 444px;
+    margin-left: 24px;
+}
+
+div.button1 {
+    color: white;
+    background-color: #E6533C;
+    display: inline-block;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 24px;
+    
+}
+img.asd {
+    width: 420px;
+    height: 12px;
+    margin-top: 30px;
+    margin-left: 40px
+}
+h5 {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.459);
+}
