@@ -5,16 +5,17 @@ function Header() {
     return (
         <header className="head container">
             <div className="head1">
-                <div>WORKOUT</div>
+                <div className="workout">WORKOUT</div>
             </div>
             <div className="head2">
-                <div>WORKOUTS</div>
-                <div>PROGRAMS</div>
-                <div>HEALTHY LIVING</div>
-                <div>COMMUNITY</div>
-                <div>ABOUT</div>
-                <div>STORE</div>
+                <a href="#">WORKOUTS</a>
+                <a href="#">PROGRAMS</a>
+                <a href="#">HEALTHY LIVING</a>
+                <a href="#">COMMUNITY</a>
+                <a href="#">ABOUT</a>
+                <a href="#">STORE</a>
             </div>
+            <div className="head3"><i className='fa-solid fa-bars'></i></div>
         </header>
     );
 }

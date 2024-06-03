@@ -1,3 +1,5 @@
+/* Existing styles */
+
 footer.foot {
     margin-top: 130px;
     margin-bottom: 100px;
@@ -8,7 +10,7 @@ div.Membership {
     font-size: 50px;
     /* font-weight: 500; */
     line-height: 70px;
-    letter-spacing: 0.8299999833106995px;
+    letter-spacing: 0.83px; /* Rounded the value for better readability */
     text-align: left;
 }
 
@@ -20,10 +22,6 @@ div.hr {
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
-
-
-/* ---------------------- */
 
 div.joinfree {
     display: flex;
@@ -56,10 +54,12 @@ div.ww {
     opacity: 0.65;
     color: #EFEDE8A6;
 }
-ul{
+
+ul {
     padding: 0px 0px 0px 25px;
 }
-div.joinclubnow{
+
+div.joinclubnow {
     background-color: #0070C9;
     display: inline-block;
     padding: 0px 10px;
@@ -68,10 +68,45 @@ div.joinclubnow{
     color: white;
     letter-spacing: 2px;
 }
-div.seemorefooter{
+
+div.seemorefooter {
     margin-top: 20px;
 }
 
 div.part2footer {
     flex: 1;
+}
+
+/* Responsive Design */
+
+/* Responsive Design for Sections Below */
+
+@media only screen and (max-width: 768px) {
+    div.joinfree {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.part1footer {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div.part1footer {
+        padding: 10px;
+    }
+
+    div.ww {
+        font-size: 12px;
+    }
+
+    div.h1ofpart1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    div.joinclubnow {
+        font-size: 10px;
+    }
 }

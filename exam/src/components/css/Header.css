@@ -3,21 +3,44 @@ header.head {
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    margin-top: 49px !important;
+    margin-top: 29px !important;
 }
 
 div.head2 {
     display: flex;
     gap: 12px;
 }
+div.head3 {
+    display: flex;
+    gap: 12px;
+    display: none;
+    color: #FAFAF9;
+    cursor: pointer;
+}
 
-div.head2 div {
+
+div.head2 a {
     font-size: 12px;
     opacity: 0.7;
+    text-decoration: none;
+    color: #FAFAF9;
 }
 
 
 body {
     margin: 0;
     background-color: #171717;
+}
+div.workout {
+    cursor: pointer;
+    
+}
+@media (max-width: 792px) {
+
+    div.head2 {
+        display: none;
+    }
+    div.head3 {
+        display: block;
+    }
 }

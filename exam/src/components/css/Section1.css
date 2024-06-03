@@ -28,7 +28,8 @@ h1.begin {
     margin-bottom: 40px;
     color: #ccc;
 }
-img{
+
+img {
     width: 100%;
 }
 
@@ -88,8 +89,26 @@ span.spanoflogos {
     .image-container {
         display: none;
     }
+
+    .logos {
+        width: 70px;
+    }
+
+    h1.begin {
+        font-size: 5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .unit,
+    .label
+    .number {
+        font-size: 1rem;
+    }
 }
 
-*{
+* {
     box-sizing: border-box;
 }

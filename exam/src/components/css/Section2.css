@@ -3,23 +3,29 @@ div.topofsection2 {
     flex-direction: column;
     gap: 20px;
 }
-div.section2{
+
+div.section2 {
     margin-top: 100px;
 }
-div.colorgrey{
+
+div.colorgrey {
     color: #EFEDE8A6;
     opacity: 0.65;
 }
+
 .colorwhite {
     color: white;
 }
-h1.h1ofsec2{
+
+h1.h1ofsec2 {
     margin: 0;
 }
-div.offeruniq{
+
+div.offeruniq {
     background-color: #232532 !important;
 }
-div.offeruniq1{
+
+div.offeruniq1 {
     background-color: #4F5261 !important;
 }
 
@@ -44,8 +50,69 @@ div.offer {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-} */
-div.offers{
+}  */
+div.offers {
     display: flex;
     gap: 16px;
 }
+
+/* NOrmal */
+@media (min-width: 992px) {
+    .offers {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .offer {
+      width: calc(33.33% - 16px);
+      margin-right: 16px;
+    }
+  
+    .offer:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+  
+  /* Orta */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .offers {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .offer {
+      width: calc(50% - 16px);
+      margin-right: 16px;
+    }
+  
+    .offer:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+  
+  /* BalacA  */
+  @media (max-width: 767px) {
+    .offers {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .offer {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+  
+    .offer:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  /* Extra balaca  */
+  @media (max-width: 479px) {
+    .offers {
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

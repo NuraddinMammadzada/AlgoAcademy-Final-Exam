@@ -75,12 +75,34 @@ div.getmoresmallword{
 
 }
 
-@media (max-width:992px) {
-    div.workoutathome {
-        flex-direction: column;
+@media (max-width: 992px) {
+    div.section3 {
+        gap: 50px;
     }
 
+    div.workoutathome,
     div.getmore {
         flex-direction: column;
+        gap: 20px;
+    }
+
+    div.imgparagraph,
+    div.getmoreword {
+        text-align: center;
+    }
+
+    div.section3img,
+    div.getmoreimg {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    div.bigword,
+    div.getmorebigword {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
     }
 }
+
